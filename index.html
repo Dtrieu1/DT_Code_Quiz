@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz!</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <header>Code Quiz</header>
+
+    <div class="Countdown">Timer: <span class="Timer">50</span></div>
+    <div class="highScore">View High Scores</div>
+    <main>
+        <section id="startScreenVisbility">
+            Welcome to the Code Quiz!
+            <br>The idea of this challenge is to score as many points as possible within 50 seconds!
+            <br>Time will start once you select "Start Game".
+            <br>Good luck!
+            <div class="startButton">Start Game</div>
+        </section>
+        <section id="quizQuestionsDisplay">
+            <div id="quizQuestion"></div>
+            <div id="quizChoices"></div>
+        </section>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
