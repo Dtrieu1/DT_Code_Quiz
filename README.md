@@ -7,3 +7,5 @@ Currently the timer is functioning properly, but the view high score and quiz se
 <img src="Code Quiz.JPG" alt="homepage photo">
 
 Please note those changes will be update accordingly.
+
+Deployment Link: https://dtrieu1.github.io/DT_Code_Quiz/
