@@ -1,11 +1,24 @@
 # DT_Code_Quiz
 
-Project was designed to showcase the code quiz.
+## Table of Contents
 
-Currently the timer is functioning properly, but the view high score and quiz selection is still pending at this time.
+[Purpose](#Purpose) <br>
+[Build](#Build) <br>
+[Testing](#Testing) <br>
+
+## Purpose:
+Project was designed to showcase the code quiz. 
+
+## Build:
+
+The way you can build the code quiz is through HTML, CSS, and JS. 
+
+## Testing:
+
+Feel free to test this code quiz with the following deployed link: https://dtrieu1.github.io/DT_Code_Quiz/
 
 <img src="Code Quiz.JPG" alt="homepage photo">
 
-Please note those changes will be update accordingly.
+## Resources: 
+Quiz App: https://www.youtube.com/watch?v=PBcqGxrr9g8 <br>
 
-Deployment Link: https://dtrieu1.github.io/DT_Code_Quiz/
