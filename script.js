@@ -7,30 +7,22 @@ var quizQuestion = document.querySelector("#quizQuestion");
 var quizChoices = document.querySelector("#quizChoices");
 var questionNumber = 0;
 
+//List of questions and answers -- Array within an array
+
 const listOfQuestions = [
   {
     question:
       "Which one would you typical to use to store the changes you are making for styling purposes?",
-    answers: {
-      A: "HTML",
-      B: "CSS",
-      C: "Jquery",
-      D: "JavaScript",
-    },
+    answers: ["HTML", "CSS", "Jquery", "JavaScript"],
     correctAnswer: "CSS",
   },
   {
     question: "What type should I use if I'm using text?",
-    answers: {
-      A: "String",
-      B: "Number",
-      C: "Integer",
-      D: "Decimal",
-    },
+    answers: ["String", "Number", "Integer", "Decimal"],
     correctAnswer: "String",
   },
 ];
-
+//function for timer 
 function startTimer() {
   var timeRemaining = 50;
 
@@ -45,6 +37,7 @@ function startTimer() {
   }, 1000);
 }
 
+//button to start the timer
 startButton.addEventListener("click", function () {
   startTimer();
   startScreenVisibility.style.display = "none";
@@ -52,6 +45,7 @@ startButton.addEventListener("click", function () {
   displayQuestions();
 });
 
+//questions displayed
 function displayQuestions() {
   const output = [];
 
@@ -64,14 +58,16 @@ function displayQuestions() {
   }
 }
 
-quizChoices.addEventListener("click", function (answers) {
-  let word = answers.srcElement.innerText;
-  console.log(word);
+function checkAnswer() {
+  let word = listOfQuestions[questionNumber].correctAnswer;
+  console.log("Correct Answer " + word);
   console.log(listOfQuestions[questionNumber].correctAnswer);
-  if (listOfQuestions[questionNumber].correctAnswer < answers.target) {
-    console.log("cool");
+  console.log($(this).children("button"));
+  if (listOfQuestions[questionNumber].correctAnswer === word) {
+    console.log("Match Match");
   }
-});
+}
+quizChoices.addEventListener("click", checkAnswer);
 
 viewScores.addEventListener("click", function () {});
 

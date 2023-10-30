@@ -1,58 +1,61 @@
-.Countdown{
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    font-size: 30px;
-    color:white;
+.Countdown {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+  color: white;
 }
 
-  header {
-    padding: 20px;
-    text-align: center;
-    background: rgb(56, 18, 145);
-    color: #fff;
-    font-size:35px;
-    position:relative;
-  }
-
-  main{
-    padding: 20px;
-    background: rgb(18, 84, 145);
-    text-align: center;
-    color: #fff;
-    font-size:35px;
-    position:relative;
-    height: 800px;
-  }
-
-  .startButton{
-    padding:10px;
-    text-align: center;
-    background-color: bisque;
-    color: black;
-    margin: 10px;
-    width: 200px;
-    position: relative;
-  }
-
-.highScore{
-    position:absolute;
-    top: 15px;
-    left: 15px;
-    font-size: 30px;
-    color: white;
+header {
+  padding: 20px;
+  text-align: center;
+  background: rgb(56, 18, 145);
+  color: #fff;
+  font-size: 35px;
+  position: relative;
 }
 
-section{
-    display:flex;
-    align-items: center;
-    flex-direction: column;
+main {
+  padding: 20px;
+  background: rgb(18, 84, 145);
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  position: relative;
+  height: 800px;
 }
 
-#quizChoices button{
-    display:flex;
-    height: 75px;
-    width: 200px;
-    padding: 10px;
-    text-align: center;
+.startButton {
+  padding: 10px;
+  text-align: center;
+  background-color: bisque;
+  color: black;
+  margin: 10px;
+  width: 200px;
+  position: relative;
+}
+
+.highScore {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 30px;
+  color: white;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#quizChoices button {
+  display: flex;
+  height: 75px;
+  width: 350px;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  margin: 3px;
+
 }
