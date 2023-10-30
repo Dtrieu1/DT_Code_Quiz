@@ -49,7 +49,8 @@ section {
   flex-direction: column;
 }
 
-#quizChoices button {
+#quizChoices button,
+button {
   display: flex;
   height: 60px;
   width: 350px;
@@ -64,4 +65,8 @@ section {
 #quizChoices button:hover {
   background: lightgray;
   color: black;
+}
+
+button:hover {
+  background: bisque;
 }
