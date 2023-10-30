@@ -21,4 +21,6 @@ Feel free to test this code quiz with the following deployed link: https://dtrie
 
 ## Resources: 
 Quiz App: https://www.youtube.com/watch?v=PBcqGxrr9g8 <br>
-
+Toggle (Hide/Show): https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp <br>
+Quiz Questions: https://www.proprofs.com/quiz-school/story.php?title=programming-basics_2 <br>
+Forms: https://www.w3schools.com/html/html_forms.asp <br>

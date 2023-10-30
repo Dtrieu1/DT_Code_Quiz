@@ -9,10 +9,12 @@
 </head>
 
 <body>
-    <header>Code Quiz</header>
+    <header>Code Quiz
+        <div class="currentScore">Current Score: <span class="runningScore">0</span></div>
+    </header>
 
     <div class="Countdown">Timer: <span class="Timer">50</span></div>
-    <div class="highScore">View High Scores</div>
+    <!-- <div class="highScore">View High Scores</div> -->
     <main>
         <section id="startScreenVisbility">
             Welcome to the Code Quiz!
@@ -22,11 +24,26 @@
             <div class="startButton">Start Game</div>
         </section>
         <section id="quizQuestionsDisplay">
+            <!-- This is where the Question will populate -->
             <div id="quizQuestion"></div>
-            <div id="quizChoices"></div>
-            <div id="next">
-                <button>Next</button>
+            <!-- This is where the Answer options will populate -->
+            <div id="quizChoices">
+                <button id="option1">Option 1</button>
+                <button id="option2">Option 2</button>
+                <button id="option3">Option 3</button>
+                <button id="option4">Option 4</button>
             </div>
+            <div id="mainFinalScore">
+                <form>
+                    <label for="initials">Please enter your initials</label><br>
+                    <input type="text" id="initals" name="initials" value=""> <br>
+                </form>
+                <button id="Scoring">Submit</button>
+            </div>
+
+            <!-- This is the next button that would show up via JS updates -->
+            <button id="next">Next</button>
+
         </section>
 
     </main>
